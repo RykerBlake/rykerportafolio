@@ -12,6 +12,7 @@ if (preloader) {
 const trayectoria = [
     { nombre: "SylenMC", rol: "Owner", desc: "Servidor de Minecraft al que le dedico todo mi tiempo, enfoque y esfuerzo. Lidero su crecimiento, administración, configuración técnica y comunidad.", destacada: true },
     { nombre: "Shadow Studio", rol: "Owner", desc: "Studio especializado en Minecraft, proyectos web y plugins, enfocado en entregar soluciones técnicas y configuraciones para comunidades." },
+    { nombre: "Infernox Network", rol: "Head Manager", desc: "Gestión y coordinación general como Head Manager, supervisando la organización interna, el rendimiento del equipo de staff, las dinámicas de la network y la estabilidad operativa de la comunidad." },
     { nombre: "LatamNet", rol: "Owner", desc: "Impulsé el proyecto desde cero como owner, definiendo su visión, estructura inicial, dinámicas de comunidad y bases técnicas." },
     { nombre: "SurCraft", rol: "Mod", desc: "Moderación activa en un servidor de Minecraft, asegurando el cumplimiento de normas, resolviendo reportes y manteniendo un entorno sano." },
     { nombre: "Kronix Network", rol: "Sr Mod", desc: "Supervisión avanzada de la moderación y el equipo de staff, manejo de casos delicados, control de sanciones y coordinación operativa." },
@@ -19,6 +20,7 @@ const trayectoria = [
     { nombre: "VeltrixSMP", rol: "Owner", desc: "Dirección general y administración de un SMP enfocado en la supervivencia y la comunidad, gestionando reglas, eventos y progresión." },
     { nombre: "Solarycraft", rol: "Owner", desc: "Gestión integral del servidor como Owner, coordinando su identidad, configuración, organización interna y experiencia de juego." },
     { nombre: "VolcánMC", rol: "Helper", desc: "Atención directa y orientación a los usuarios nuevos y recurrentes, resolviendo dudas, guiando en mecánicas y escalando incidencias." },
+    { nombre: "Silentcraft", rol: "Helper", desc: "Participación como Helper apoyando directamente a los jugadores, resolviendo dudas sobre mecánicas y normas del servidor, brindando atención cercana y colaborando con el equipo de staff para mantener una comunidad ordenada." },
     { nombre: "Glow Studio", rol: "Administrador de eventos", desc: "Planificación, organización y coordinación de eventos dentro de Minecraft, cuidando la dinámica, reglas y fluidez para la comunidad." },
     { nombre: "Flux Network", rol: "Co Owner", desc: "Co-administración y toma de decisiones estratégicas junto a la dirección, apoyando la gestión de la network y el crecimiento comunitario." },
     { nombre: "VoidSmP", rol: "Owner", desc: "Liderazgo y administración de VoidSmP, supervisando el funcionamiento del servidor, la convivencia y la evolución del SMP." },
@@ -72,5 +74,5 @@ if (discordBtn) {
         discordBtn.innerHTML = '<i class="fas fa-check"></i> ¡Usuario copiado!';
         setTimeout(() => { discordBtn.innerHTML = originalText; }, 2500);
     });
-}
-
+    }
+    
