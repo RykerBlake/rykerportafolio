@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryker | Web, Minecraft & Discord Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Pantalla de carga -->
+    <div id="preloader" class="preloader" aria-hidden="true">
+        <div class="preloader-box">
+            <div class="preloader-title">Ryker <span>Portafolio</span></div>
+            <div class="preloader-bar">
+                <div class="preloader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <header class="navbar">
+        <div class="logo">Ryker</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Especialidades</a>
+            <a href="#trayectoria">Trayectoria</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto" class="btn-nav">Contactar</a>
+        </nav>
+        <div class="menu-toggle" id="menuToggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-main">
+            <div class="hero-content reveal">
+                <div class="badge"><i class="fas fa-bolt"></i> Disponible para proyectos</div>
+                <h1>Creando experiencias digitales en <span class="gradient-text">Web, Minecraft & Discord</span></h1>
+                <p>Desarrollador Web de nivel avanzado, configurador y developer de servidores de Minecraft, creador de comunidades en Discord y desarrollador de bots en Node.js.</p>
+                <div class="hero-buttons">
+                    <a href="#trayectoria" class="btn-primary">Mi Trayectoria <i class="fas fa-arrow-right"></i></a>
+                    <a href="#proyectos" class="btn-secondary">Ver Proyectos</a>
+                </div>
+            </div>
+            <div class="about-mini reveal">
+                <span class="about-label"><i class="fas fa-user-astronaut"></i> SOBRE MÍ</span>
+                <p>Apasionado por construir proyectos funcionales, estéticos y estables. Combino desarrollo web, configuración de servidores de Minecraft y administración de comunidades en Discord con enfoque práctico y compromiso real.</p>
+                <div class="stats-row">
+                    <div class="stat-box"><strong>+4 Años</strong><span>Experiencia</span></div>
+                    <div class="stat-box"><strong>+20</strong><span>Proyectos</span></div>
+                    <div class="stat-box"><strong>100%</strong><span>Compromiso</span></div>
+                </div>
+                <div class="availability-note">
+                    <span class="avail-dot"></span>
+                    <div>
+                        <strong>Disponible para nuevos proyectos</strong>
+                        <p>
+                            Si necesitas una <span>página web</span>, un <span>bot de Discord</span> o <span>configurar tu servidor de Minecraft o Discord</span>, escríbeme: me adapto a lo que necesites, negociamos un precio justo o gratis según tu proyecto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <div class="image-frame">
+                <img src="img/render_ryker.png" alt="Avatar de Desarrollador" onerror="this.src='https://placehold.co/400x400/050a14/0088ff?text=Tu+Logo+Aqui'">
+                <div class="floating-card card-1"><i class="fas fa-code"></i><span>Web Dev Avanzado</span></div>
+                <div class="floating-card card-2"><i class="fas fa-cube"></i><span>MC & Discord Dev</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="section-header reveal"><span class="subtitle">LO QUE HAGO</span><h2>Mis <span class="gradient-text">Especialidades</span></h2></div>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="card-header"><div class="icon-box"><i class="fas fa-laptop-code"></i></div><span class="level-badge advanced">Avanzado</span></div>
+                <h3>Desarrollo de Páginas Web</h3>
+                <p>Diseño y programación de sitios web modernos, responsivos y optimizados. Creación de portafolios, landing pages y tiendas online con interfaces atractivas y código limpio.</p>
+                <ul class="tech-list"><li>HTML5 & CSS3</li><li>JavaScript (ES6+)</li><li>UI/UX Responsive</li></ul>
+            </div>
+            <div class="service-card reveal">
+                <div class="card-header"><div class="icon-box"><i class="fas fa-server"></i></div><span class="level-badge pro">Developer</span></div>
+                <h3>Minecraft & Discord Dev</h3>
+                <p>Configuración integral de servidores Java & Bedrock (Crossplay), optimización de rendimiento, sistemas de rangos, economías, y estructuración profesional de servidores de Discord con seguridad avanzada.</p>
+                <ul class="tech-list"><li>Plugins & Configs</li><li>GeyserMC / LuckPerms</li><li>Discord Setup & Staff</li></ul>
+            </div>
+            <div class="service-card reveal">
+                <div class="card-header"><div class="icon-box"><i class="fab fa-discord"></i></div><span class="level-badge beginner">Principiante</span></div>
+                <h3>Bots de Discord</h3>
+                <p>Desarrollo de bots personalizados a medida para automatizar comunidades. Implementación de comandos de moderación, sistemas de bienvenida, logs y utilidades básicas en crecimiento continuo.</p>
+                <ul class="tech-list"><li>Node.js</li><li>Discord.js</li><li>Comandos & Eventos</li></ul>
+            </div>
+        </div>
+
+        <div class="stack-box reveal">
+            <div class="stack-header"><span class="subtitle">STACK TÉCNICO</span><h3>Tecnologías y <span class="gradient-text">Herramientas</span></h3></div>
+            <div class="stack-grid">
+                <div class="stack-group"><h4><i class="fas fa-code"></i> Web</h4><div class="stack-pills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Diseño Responsive</span></div></div>
+                <div class="stack-group">
+                    <h4><i class="fas fa-cube"></i> Minecraft</h4>
+                    <div class="stack-pills">
+                        <span>LuckPerms</span>
+                        <span>GeyserMC / Floodgate</span>
+                        <span>WorldGuard</span>
+                        <span>WorldEdit</span>
+                        <span>DeluxeMenus</span>
+                        <span>EconomyShopGUI</span>
+                        <span>TAB</span>
+                        <span>DecentHolograms</span>
+                        <span>PlaceholderAPI</span>
+                        <span>CoreProtect</span>
+                        <span>Optimización</span>
+                    </div>
+                </div>
+                <div class="stack-group"><h4><i class="fab fa-discord"></i> Discord</h4><div class="stack-pills"><span>Node.js</span><span>Discord.js</span><span>Roles & Permisos</span><span>Seguridad & Tickets</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trayectoria" class="journey">
+        <div class="section-header reveal"><span class="subtitle">EXPERIENCIA Y RECORRIDO</span><h2>Mi <span class="gradient-text">Trayectoria</span></h2></div>
+        <div class="journey-grid" id="journeyGrid"></div>
+        <div class="journey-summary reveal">
+            <i class="fas fa-rocket"></i>
+            <p>He trabajado en <strong>más de 20 proyectos</strong> entre servidores, estudios y comunidades, y sigo con toda la disposición y energía para sumarme a nuevos proyectos y retos.</p>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <div class="section-header reveal"><span class="subtitle">PORTAFOLIO</span><h2>Proyectos <span class="gradient-text">Destacados</span></h2></div>
+        <div class="projects-grid">
+            <div class="project-card featured reveal">
+                <div class="project-img"><img src="img/sylenmc.png" alt="SylenMC Network" onerror="this.src='https://placehold.co/800x450/071226/00a8ff?text=SylenMC+Banner'"><span class="role-tag"><i class="fas fa-crown"></i> Owner & Founder</span></div>
+                <div class="project-info">
+                    <h3>SylenMC</h3>
+                    <p>Fundador y desarrollador principal de <strong>SylenMC</strong>. Encargado de toda la infraestructura técnica del servidor, configuración de modalidades, soporte Crossplay (Java/Bedrock), tienda web oficial y gestión completa de la comunidad en Discord.</p>
+                    <div class="project-tags"><span>Minecraft Network</span><span>Web Store</span><span>Gestión & Config</span></div>
+                    <a href="https://sylenmc-oficial.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">Visitar Web Oficial <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-img"><img src="img/shadow-studio.jpg" alt="Shadow Studio" onerror="this.src='https://placehold.co/800x450/071226/0088ff?text=Shadow+Studio'"><span class="role-tag"><i class="fas fa-shield-alt"></i> Owner</span></div>
+                <div class="project-info">
+                    <h3>Shadow Studio</h3>
+                    <p>Estudio enfocado en Minecraft, desarrollo de proyectos web y configuración de plugins para ofrecer soluciones prácticas, estéticas y funcionales a servidores y comunidades.</p>
+                    <div class="project-tags"><span>Minecraft</span><span>Proyectos Web</span><span>Plugins</span></div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-img"><img src="img/kyle-bot.jpg" alt="Kyle Bot" onerror="this.src='https://placehold.co/800x450/071226/0066cc?text=Kyle+Bot'"><span class="role-tag"><i class="fas fa-hammer"></i> En creación</span></div>
+                <div class="project-info">
+                    <h3>Kyle Bot</h3>
+                    <p>Bot de Discord actualmente en desarrollo. Diseñado para apoyar la gestión y automatización de comunidades con comandos, eventos y funciones en constante construcción.</p>
+                    <div class="project-tags"><span>Discord Bot</span><span>En desarrollo</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact reveal">
+        <div class="contact-box">
+            <h2>¿Tienes un proyecto en mente?</h2>
+            <p>Estoy disponible para proyectos. Si necesitas una página web, un bot de Discord o configurar tu servidor de Minecraft o Discord, contáctame: podemos negociar un precio justo o gratis según tu proyecto.</p>
+            <div class="social-links"><a href="#" class="social-btn discord"><i class="fab fa-discord"></i> Discord: @rykeryt.25</a></div>
+        </div>
+    </section>
+
+    <footer><p>&copy; 2026 <span>Ryker</span>. Todos los derechos reservados.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
